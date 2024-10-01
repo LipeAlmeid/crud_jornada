@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "crud-jornada"
+version = "0.1.0"
+description = ""
+authors = ["Felipe Almeida <felipealmeida37@yahoo.com.br>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+sqlalchemy = "^2.0.35"
+pydantic = "^2.9.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
